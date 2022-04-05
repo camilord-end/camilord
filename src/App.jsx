@@ -1,6 +1,6 @@
 import './App.css'
 
-function App() {
+export const App = () => {
   return (
     <div className="container">
       <div className="this">This is</div>
@@ -9,4 +9,3 @@ function App() {
   )
 }
 
-export default App
