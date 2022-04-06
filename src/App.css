@@ -10,3 +10,10 @@
   background: #121212;
   color: #fff;
 }
+
+.theme-button {
+  cursor: pointer;
+  font-size: x-large;
+  width: fit-content;
+  height: fit-content;
+}
