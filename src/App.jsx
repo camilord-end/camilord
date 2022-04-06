@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import { Navbar } from './components/Navbar/Navbar'
+import { Navbar } from "./components/Navbar/Navbar";
 import { Home } from "./components/Home/Home";
 import { Projects } from "./components/Projects/Projects";
 import { About } from "./components/About/About";
-import { Contact } from "./components/Contact/Contact"
+import { Contact } from "./components/Contact/Contact";
 import { FaMoon, FaSun } from "react-icons/fa";
 import useLocalStorage from "use-local-storage";
 
@@ -19,16 +19,16 @@ export const App = () => {
 
   return (
     <div className="container" data-theme={theme}>
-      <Navbar themeHandle={handleDarkMode}/>
+      <Navbar themeHandle={handleDarkMode} />
+      <div className="theme-button" onClick={handleDarkMode}>
+        {theme === "dark" ? <FaSun /> : <FaMoon />}
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <div className="theme-button" onClick={handleDarkMode}>
-        {theme==="dark"? <FaSun />: <FaMoon />}
-      </div>
     </div>
   );
 };
