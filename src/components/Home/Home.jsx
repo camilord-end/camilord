@@ -7,12 +7,12 @@ export const Home = () => {
       <h2>
         <Typical
           steps={[
-            "And i like to transform ideas into code",
-            1000,
             "And i like to learn new tecnologies",
             1000,
+            "And i like to transform ideas into code",
+            1000,
           ]}
-          loop={Infinity}
+          loop={2}
           wrapper="p"
         />
       </h2>
