@@ -1,29 +1,22 @@
 :root {
   --background: #fff;
-  --text-primary: #6b21a8;
-  --text-secondary: #9333ea;
+  --text-primary: rgba(0, 0, 0, 0.87);
+  --text-secondary: rgba(0, 0, 0, 0.6);
+  --divider: rgba(0, 0, 0, 0.12);
   --accent: #7e22ce;
-  --border: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme="dark"] {
   --background: #121212;
-  --text-primary: #5eead4;
-  --text-secondary: #ccfbf1;
+  --text-primary: #fff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --divider: rgba(255, 255, 255, 0.12);
   --accent: #99f6e4;
-  --border: rgba(255, 255, 255, 0.05);
 }
-
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
 }
 
