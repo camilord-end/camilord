@@ -4,7 +4,6 @@ import { Home } from "./components/Home/Home";
 import { Projects } from "./components/Projects/Projects";
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
-import { FaMoon, FaSun } from "react-icons/fa";
 import useLocalStorage from "use-local-storage";
 
 import "./App.css";
@@ -19,10 +18,11 @@ export const App = () => {
 
   return (
     <div className="container" data-theme={theme}>
-      <Navbar themeHandle={handleDarkMode} />
-      <div className="theme-button" onClick={handleDarkMode}>
-        {theme === "dark" ? <FaSun /> : <FaMoon />}
-      </div>
+      <Navbar
+        themeHandle={handleDarkMode}
+        handleTheme={handleDarkMode}
+        theme={theme}
+      />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
