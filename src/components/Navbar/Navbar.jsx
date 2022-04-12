@@ -1,31 +1,37 @@
 import { Link } from "react-router-dom";
 import { FaMoon, FaSun } from "react-icons/fa";
 import "./Navbar.css";
+import { motion } from "framer-motion";
 
 export const Navbar = ({ theme, handleTheme }) => {
   return (
     <div className="nav-container">
       <div className="name-container">
-        <h1 className="name">Julian Orozco</h1>
+        <h1 className="name" >Julian Orozco</h1>
       </div>
-      <div className="theme-button" onClick={handleTheme}>
+      <motion.div
+        className="theme-button"
+        onClick={handleTheme}
+        whileHover={{ scale: 1.5 }}
+        whileTap={{ scale: 1.25 }}
+      >
         {theme === "dark" ? <FaSun /> : <FaMoon />}
-      </div>
+      </motion.div>
       <div className="link-container">
         <nav>
           <ul>
-            <li>
+            <motion.li whileHover={{ scale: 1.5 }} whileTap={{ scale: 1.25 }}>
               <Link to="/">Home</Link>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li whileHover={{ scale: 1.5 }} whileTap={{ scale: 1.25 }}>
               <Link to="/projects">Projects </Link>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li whileHover={{ scale: 1.5 }} whileTap={{ scale: 1.25 }}>
               <Link to="/about"> About </Link>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li whileHover={{ scale: 1.5 }} whileTap={{ scale: 1.25 }}>
               <Link to="/contact">Contact </Link>
-            </li>
+            </motion.li>
           </ul>
         </nav>
       </div>

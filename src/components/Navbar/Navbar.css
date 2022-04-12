@@ -17,6 +17,10 @@ nav a {
   padding: 10px;
 }
 
+nav a:hover {
+  color: var(--accent);
+}
+
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -31,5 +35,12 @@ nav a {
 }
 
 .name {
+  user-select: none;
   color: var(--text-primary);
+}
+
+.theme-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
