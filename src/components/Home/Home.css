@@ -1,0 +1,16 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-text {
+  text-align: center;
+}
+
+#photo {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}

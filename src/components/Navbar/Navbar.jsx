@@ -20,16 +20,16 @@ export const Navbar = ({ theme, handleTheme }) => {
       <div className="link-container">
         <nav>
           <ul>
-            <motion.li whileHover={{ scale: 1.5 }} whileTap={{ scale: 1.25 }}>
+            <motion.li whileHover={{ scale: 1.3 }} whileTap={{ scale: 1.1 }}>
               <Link to="/">Home</Link>
             </motion.li>
-            <motion.li whileHover={{ scale: 1.5 }} whileTap={{ scale: 1.25 }}>
+            <motion.li whileHover={{ scale: 1.3 }} whileTap={{ scale: 1.1 }}>
               <Link to="/projects">Projects </Link>
             </motion.li>
-            <motion.li whileHover={{ scale: 1.5 }} whileTap={{ scale: 1.25 }}>
+            <motion.li whileHover={{ scale: 1.3 }} whileTap={{ scale: 1.1 }}>
               <Link to="/about"> About </Link>
             </motion.li>
-            <motion.li whileHover={{ scale: 1.5 }} whileTap={{ scale: 1.25 }}>
+            <motion.li whileHover={{ scale: 1.3 }} whileTap={{ scale: 1.1 }}>
               <Link to="/contact">Contact </Link>
             </motion.li>
           </ul>
