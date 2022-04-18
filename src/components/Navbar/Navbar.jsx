@@ -7,7 +7,7 @@ export const Navbar = ({ theme, handleTheme }) => {
   return (
     <div className="nav-container">
       <div className="name-container">
-        <h1 className="name" >Julian Orozco</h1>
+        <h1 className="name">Julian Orozco</h1>
       </div>
       <motion.div
         className="theme-button"
