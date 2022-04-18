@@ -1,7 +1,11 @@
+import "./ProjectCard.css"
+
 export const ProjectCard = ({ name, description, stack, link, preview }) => {
   return (
     <>
-      <h1 className="project-name">{name}</h1>
+      <div>
+        <h1 className="project-name">{name}</h1>
+      </div>
       <p className="project-description">{description}</p>
       <ul className="project-stack">
         {stack.map((item, index) => {
