@@ -1,0 +1,23 @@
+.project-card {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: var(--divider);
+  box-shadow: 0 0 5px var(--divider);
+}
+
+.project-stack {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+}
+
+.project-name {
+  color: var(--text-primary);
+}
+
+.project-description {
+  color: var(--text-secondary)
+}
