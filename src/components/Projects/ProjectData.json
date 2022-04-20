@@ -1,50 +1,56 @@
 [
   {
     "id": 1,
-    "name": "lorem ipsum",
-    "description": "lorem ipsum pero largo",
-    "stack": ["react", "js", "css", "html5", "ts", "framer-motion", "etc"],
-    "link": "https://direction.com",
-    "preview": "https://direction.com/image-preview"
+    "name": "Countries DB",
+    "description": "A countries info database that contains Population, Region, Subregion, Area, Languajes and Capital detailed info like Temperature, Humidity and wind speed, has easy way of expansion since API calls have a lot of extra info to display",
+    "stack": ["react", "js", "css", "html5", "vite","axios"],
+    "repository": "https://github.com/camilord-end/countries",
+    "preview": "https://countries-db.vercel.app/",
+    "image": "src/assets/countries.png"
   },
   {
     "id": 2,
     "name": "lorem ipsum",
     "description": "lorem ipsum pero largo",
     "stack": ["react", "js", "css", "html5", "ts", "framer-motion", "etc"],
-    "link": "https://direction.com",
-    "preview": "https://direction.com/image-preview"
+    "repository": "https://direction.com",
+    "preview": "https://direction.com/image-preview",
+    "image": "src/assets/countries.png"
   },
   {
     "id": 3,
     "name": "lorem ipsum",
     "description": "lorem ipsum pero largo",
     "stack": ["react", "js", "css", "html5", "ts", "framer-motion", "etc"],
-    "link": "https://direction.com",
-    "preview": "https://direction.com/image-preview"
+    "repository": "https://direction.com",
+    "preview": "https://direction.com/image-preview",
+    "image": "src/assets/countries.png"
   },
   {
     "id": 4,
     "name": "lorem ipsum",
     "description": "lorem ipsum pero largo",
     "stack": ["react", "js", "css", "html5", "ts", "framer-motion", "etc"],
-    "link": "https://direction.com",
-    "preview": "https://direction.com/image-preview"
+    "repository": "https://direction.com",
+    "preview": "https://direction.com/image-preview",
+    "image": "src/assets/countries.png"
   },
   {
     "id": 5,
     "name": "lorem ipsum",
     "description": "lorem ipsum pero largo",
     "stack": ["react", "js", "css", "html5", "ts", "framer-motion", "etc"],
-    "link": "https://direction.com",
-    "preview": "https://direction.com/image-preview"
+    "repository": "https://direction.com",
+    "preview": "https://direction.com/image-preview",
+    "image": "src/assets/countries.png"
   },
   {
     "id": 6,
     "name": "lorem ipsum",
     "description": "lorem ipsum pero largo",
     "stack": ["react", "js", "css", "html5", "ts", "framer-motion", "etc"],
-    "link": "https://direction.com",
-    "preview": "https://direction.com/image-preview"
+    "repository": "https://direction.com",
+    "preview": "https://direction.com/image-preview",
+    "image": "src/assets/countries.png"
   }
 ]
