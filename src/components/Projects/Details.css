@@ -1,0 +1,21 @@
+.links {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.github-link {
+  text-decoration: none;
+  color: var(--accent);
+}
+.project-link {
+  text-decoration: none;
+  color: var(--accent);
+}
+.project-description{
+  margin: 5px;
+  padding: 5px;
+}
+.stack{
+  margin: 10px;
+}
