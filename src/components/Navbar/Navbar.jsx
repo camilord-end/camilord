@@ -7,7 +7,13 @@ export const Navbar = ({ theme, handleTheme }) => {
   return (
     <div className="nav-container">
       <div className="name-container">
-        <h1 className="name">Julian Orozco</h1>
+        <motion.h1
+          whileHover={{ scale: 1.1 }}
+        >
+          <Link to="/" className="name">
+            Julian Orozco
+          </Link>
+        </motion.h1>
       </div>
       <motion.div
         className="theme-button"
@@ -20,9 +26,6 @@ export const Navbar = ({ theme, handleTheme }) => {
       <div className="link-container">
         <nav>
           <ul>
-            <motion.li whileHover={{ scale: 1.3 }} whileTap={{ scale: 1.1 }}>
-              <Link to="/">Home</Link>
-            </motion.li>
             <motion.li whileHover={{ scale: 1.3 }} whileTap={{ scale: 1.1 }}>
               <Link to="/projects">Projects </Link>
             </motion.li>

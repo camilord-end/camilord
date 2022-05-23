@@ -4,7 +4,7 @@
   margin: 20px;
   border-radius: 5px;
   background-color: var(--divider);
-  box-shadow: 0 0 20px var(--divider);
+  
   border: solid 0.5px var(--accent);
   align-self: center;
 }
