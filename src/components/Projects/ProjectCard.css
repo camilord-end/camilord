@@ -3,10 +3,14 @@
   width: 65%;
   margin: 20px;
   border-radius: 5px;
-  background-color: var(--divider);
+  /*background-color: var(--divider);*/
   
   border: solid 0.5px var(--accent);
   align-self: center;
+}
+
+.card:hover {
+  background-color: var(--divider)
 }
 
 .project-image {
