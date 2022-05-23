@@ -2,7 +2,7 @@
   --background: #fff;
   --text-primary: rgba(0, 0, 0, 0.87);
   --text-secondary: rgba(0, 0, 0, 0.6);
-  --divider: rgba(0, 0, 0, 0.12);
+  --divider: rgba(0, 0, 0, 0.05);
   --accent: #7e22ce;
 }
 
@@ -10,7 +10,7 @@
   --background: #121212;
   --text-primary: #fff;
   --text-secondary: rgba(255, 255, 255, 0.7);
-  --divider: rgba(255, 255, 255, 0.12);
+  --divider: rgba(255, 255, 255, 0.05);
   --accent: #99f6e4;
 }
 
