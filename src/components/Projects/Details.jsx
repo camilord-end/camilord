@@ -34,7 +34,7 @@ export const Details = ({ description, stack, repository, preview }) => {
           {stack.map((item, index) => {
             let stackIcon = checkStack(item);
             return (
-              <motion.li key={index}>
+              <motion.li key={index} whileHover={{ scale: 1.2 }}>
                 {stackIcon}
                 {item}
               </motion.li>
@@ -43,22 +43,24 @@ export const Details = ({ description, stack, repository, preview }) => {
         </motion.ul>
       </div>
       <motion.div layout className="links">
-        <a
+        <motion.a
           className="github-link"
           href={`${repository}`}
           target="_blank"
           rel="noreferrer"
+          whileHover={{ scale: 1.3 }}
         >
           <FaGithub />
-        </a>
-        <a
+        </motion.a>
+        <motion.a
           className="project-link"
           href={`${preview}`}
           target="_blank"
           rel="noreferrer"
+          whileHover={{ scale: 1.3 }}
         >
           <FaExternalLinkAlt />
-        </a>
+        </motion.a>
       </motion.div>
     </motion.div>
   );
