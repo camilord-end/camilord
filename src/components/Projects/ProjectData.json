@@ -6,7 +6,7 @@
     "stack": ["react", "js", "css", "html5", "vite","axios"],
     "repository": "https://github.com/camilord-end/countries",
     "preview": "https://countries-db.vercel.app/",
-    "image": "src/assets/countries.png"
+    "image": "src/assets/countriesdb.png"
   },
   {
     "id": 2,
