@@ -1,8 +1,25 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import {
+  FaGithub,
+  FaExternalLinkAlt,
+  FaReact,
+  FaCss3,
+  FaHtml5,
+} from "react-icons/fa";
+import { SiJavascript, SiVite } from "react-icons/si";
+import { AiOutlineApi } from "react-icons/ai";
 import "./Details.css";
 
 export const Details = ({ description, stack, repository, preview }) => {
+  const checkStack = (item) => {
+    if (item === "react") return <FaReact />;
+    if (item === "js") return <SiJavascript />;
+    if (item === "css") return <FaCss3 />;
+    if (item === "html5") return <FaHtml5 />;
+    if (item === "vite") return <SiVite />;
+    if (item === "axios") return <AiOutlineApi />;
+  };
+
   return (
     <motion.div
       layout
@@ -15,7 +32,13 @@ export const Details = ({ description, stack, repository, preview }) => {
       <div className="stack">
         <motion.ul className="project-stack">
           {stack.map((item, index) => {
-            return <motion.li key={index}>{item}</motion.li>;
+            let stackIcon = checkStack(item);
+            return (
+              <motion.li key={index}>
+                {stackIcon}
+                {item}
+              </motion.li>
+            );
           })}
         </motion.ul>
       </div>
