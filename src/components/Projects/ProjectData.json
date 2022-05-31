@@ -3,19 +3,19 @@
     "id": 1,
     "name": "Countries DB",
     "description": "A countries info database that contains Population, Region, Subregion, Area, Languajes and Capital detailed info like Temperature, Humidity and wind speed, has easy way of expansion since API calls have a lot of extra info to display",
-    "stack": ["react", "js", "css", "html5", "vite","axios"],
+    "stack": ["react", "js", "css", "html5", "vite", "axios"],
     "repository": "https://github.com/camilord-end/countries",
     "preview": "https://countries-db.vercel.app/",
     "image": "src/assets/countriesdb.png"
   },
   {
     "id": 2,
-    "name": "lorem ipsum",
-    "description": "lorem ipsum pero largo",
-    "stack": ["react", "js", "css", "html5", "ts", "framer-motion", "etc"],
-    "repository": "https://direction.com",
-    "preview": "https://direction.com/image-preview",
-    "image": "src/assets/countries.png"
+    "name": "To Do List",
+    "description": "A todo list implementing custom hooks like useTodo, creating visibility filters,using dispatch and using useContext due to complex states, making use of dispatch instead of callbacks for better performance. Also using module prop types definitions for text imput.",
+    "stack": ["react", "js", "css", "html5", "ts", "framer-motion"],
+    "repository": "https://github.com/camilord-end/todoList",
+    "preview": "https://todo-list-camilord-end.vercel.app/",
+    "image": "src/assets/todolist.png"
   },
   {
     "id": 3,

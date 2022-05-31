@@ -6,18 +6,20 @@ import {
   FaCss3,
   FaHtml5,
 } from "react-icons/fa";
-import { SiJavascript, SiVite } from "react-icons/si";
+import { SiFramer, SiJavascript, SiTypescript, SiVite } from "react-icons/si";
 import { AiOutlineApi } from "react-icons/ai";
 import "./Details.css";
 
 export const Details = ({ description, stack, repository, preview }) => {
   const checkStack = (item) => {
-    if (item === "react") return <FaReact />;
-    if (item === "js") return <SiJavascript />;
-    if (item === "css") return <FaCss3 />;
-    if (item === "html5") return <FaHtml5 />;
-    if (item === "vite") return <SiVite />;
-    if (item === "axios") return <AiOutlineApi />;
+    if (item === "react") return <FaReact color="teal" />;
+    if (item === "js") return <SiJavascript color="yellow" />;
+    if (item === "css") return <FaCss3 color="blue" />;
+    if (item === "html5") return <FaHtml5 color="#e34f26" />;
+    if (item === "vite") return <SiVite color="orange" />;
+    if (item === "axios") return <AiOutlineApi color="pink" />;
+    if (item === "ts") return <SiTypescript color="#3178c6" />;
+    if (item === "framer-motion") return <SiFramer color="black" />;
   };
 
   return (
@@ -48,18 +50,20 @@ export const Details = ({ description, stack, repository, preview }) => {
           href={`${repository}`}
           target="_blank"
           rel="noreferrer"
-          whileHover={{ scale: 1.3 }}
+          whileHover={{ scale: 1.2 }}
         >
-          <FaGithub />
+          <FaGithub size={28} />
+          {"GitHub"}
         </motion.a>
         <motion.a
           className="project-link"
           href={`${preview}`}
           target="_blank"
           rel="noreferrer"
-          whileHover={{ scale: 1.3 }}
+          whileHover={{ scale: 1.2 }}
         >
-          <FaExternalLinkAlt />
+          <FaExternalLinkAlt size={28} />
+          {"Demo"}
         </motion.a>
       </motion.div>
     </motion.div>
