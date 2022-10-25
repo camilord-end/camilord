@@ -6,7 +6,7 @@ export const Home = () => {
       <div className='image-div'>
         <img
           id='photo'
-          src='src/assets/minga.png'
+          src='https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/minga.png'
           alt='image-placeholder'
         />
       </div>
