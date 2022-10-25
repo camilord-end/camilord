@@ -36,7 +36,7 @@ export const Details = ({ description, stack, repository, preview }) => {
           {stack.map((item, index) => {
             let stackIcon = checkStack(item);
             return (
-              <motion.li key={index} whileHover={{ scale: 1.2 }}>
+              <motion.li key={index} whileHover={{ scale: 1.2 }} layout>
                 {stackIcon}
                 {item}
               </motion.li>
