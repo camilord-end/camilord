@@ -19,7 +19,6 @@ export const App = () => {
   return (
     <div className="container" data-theme={theme}>
       <Navbar
-        themeHandle={handleDarkMode}
         handleTheme={handleDarkMode}
         theme={theme}
       />
