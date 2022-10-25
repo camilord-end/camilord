@@ -6,7 +6,7 @@
     "stack": ["react", "js", "css", "html5", "vite", "axios"],
     "repository": "https://github.com/camilord-end/countries",
     "preview": "https://countries-db.vercel.app/",
-    "image": "src/assets/countriesdb.png"
+    "image": "https://github.com/camilord-end/camilord/blob/master/src/assets/countriesdb.png"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "stack": ["react", "js", "css", "html5", "ts", "framer-motion"],
     "repository": "https://github.com/camilord-end/todoList",
     "preview": "https://todo-list-camilord-end.vercel.app/",
-    "image": "src/assets/todolist.png"
+    "image": "https://github.com/camilord-end/camilord/blob/master/src/assets/todolist.png"
   },
   {
     "id": 3,
