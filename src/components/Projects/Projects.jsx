@@ -6,28 +6,35 @@ import './Projects.css';
 
 export const Projects = () => {
   return (
-    <div className='projects-container'>
+    <motion.div
+      className='projects-container'
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <AnimatePresence>
         <motion.ul
           layout
           className='projects-wrap'
           initial={{ borderRadius: 10 }}
         >
-          {ProjectData.map((project) => {
-            return (
-              <ProjectCard
-                key={project.id}
-                description={project.description}
-                repository={project.repository}
-                name={project.name}
-                preview={project.preview}
-                stack={project.stack}
-                image={project.image}
-              />
-            );
-          })}
+          {ProjectData.map(
+            ({ id, description, repository, name, preview, stack, image }) => {
+              return (
+                <ProjectCard
+                  key={id}
+                  description={description}
+                  repository={repository}
+                  name={name}
+                  preview={preview}
+                  stack={stack}
+                  image={image}
+                />
+              );
+            }
+          )}
         </motion.ul>
       </AnimatePresence>
-    </div>
+    </motion.div>
   );
 };
