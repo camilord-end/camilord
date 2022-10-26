@@ -25,16 +25,32 @@ export const Navbar = ({ theme, handleTheme }) => {
       >
         <motion.div className='inner-nav'>
           <ul>
-            <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
+            <motion.li
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={toggleOpen}
+            >
               <Link to='/'>Home </Link>
             </motion.li>
-            <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
+            <motion.li
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={toggleOpen}
+            >
               <Link to='/projects'>Projects </Link>
             </motion.li>
-            <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
+            <motion.li
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={toggleOpen}
+            >
               <Link to='/about'> About </Link>
             </motion.li>
-            <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
+            <motion.li
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={toggleOpen}
+            >
               <Link to='/contact'>Contact </Link>
             </motion.li>
             <motion.li whileTap={{ scale: 0.95 }}>
