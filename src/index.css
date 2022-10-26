@@ -6,7 +6,7 @@
   --accent: #7e22ce;
 }
 
-[data-theme="dark"] {
+[data-theme='dark'] {
   --background: #121212;
   --text-primary: #fff;
   --text-secondary: rgba(255, 255, 255, 0.7);
@@ -20,8 +20,7 @@
   box-sizing: border-box;
   overflow-x: hidden;
 }
-body{
+body {
   width: 100%;
   height: 100vh;
 }
-

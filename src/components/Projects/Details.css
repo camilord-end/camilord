@@ -19,11 +19,11 @@
   text-decoration: none;
   color: var(--accent);
 }
-.project-description{
+.project-description {
   margin: 5px;
   padding: 5px;
 }
-.stack{
+.stack {
   margin: 10px;
   padding-top: 5px;
 }

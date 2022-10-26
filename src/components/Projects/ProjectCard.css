@@ -5,13 +5,13 @@
   margin: 5px;
   border-radius: 5px;
   /*background-color: var(--divider);*/
-  
+  overflow: hidden;
   border: solid 0.5px var(--accent);
   align-self: center;
 }
 
 .card:hover {
-  background-color: var(--divider)
+  background-color: var(--divider);
 }
 
 .project-image {
@@ -20,7 +20,7 @@
   margin-right: auto;
   width: 100%;
   max-width: 600px;
-  
+
   border-radius: 10px 10px 0 0;
   border-bottom: 1px solid var(--accent);
 }

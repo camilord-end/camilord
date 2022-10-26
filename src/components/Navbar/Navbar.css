@@ -7,9 +7,6 @@ nav {
   z-index: 100;
   box-shadow: var(--background);
   overflow: hidden;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
@@ -29,9 +26,6 @@ nav {
   position: fixed;
   outline: 0;
   border: 1px solid var(--accent);
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   top: 15px;
   left: 15px;
@@ -54,7 +48,7 @@ nav .inner-nav ul {
 nav .inner-nav li {
   list-style: none;
   line-height: 3;
- /* padding: 0 25px;*/
+  /* padding: 0 25px;*/
   border-bottom: 1px solid var(--accent);
 }
 
@@ -69,7 +63,7 @@ nav .inner-nav li a {
   padding-left: 15px;
 }
 
-nav .inner-nav li a:hover{
+nav .inner-nav li a:hover {
   color: var(--accent);
   background-color: var(--divider);
 }
