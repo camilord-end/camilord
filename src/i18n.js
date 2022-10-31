@@ -17,6 +17,11 @@ i18n
           home: {
             part1:'Frontend Developer',
             part2: 'I will transform all your ideas into code.'
+          },
+          contact: {
+            part1: 'Contact Me:',
+            part2: 'Email',
+            part3: 'Phone',
           }
         }
       },
@@ -25,6 +30,11 @@ i18n
           home: {
             part1:'Desarrollador Frontend',
             part2: 'Transformare todas tus ideas en codigo.'
+          },
+          contact: {
+            part1: 'Contactame:',
+            part2: 'Correo',
+            part3: 'Telefono',
           }
         }
       }
