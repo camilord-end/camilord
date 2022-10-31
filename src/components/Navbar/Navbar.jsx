@@ -3,9 +3,11 @@ import { FaMoon, FaSun, FaBars } from 'react-icons/fa';
 import './Navbar.css';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
-export const Navbar = ({ theme, handleTheme }) => {
+export const Navbar = ({ theme, handleTheme, lngs }) => {
   const [show, setShow] = useState(false);
+  const { t, i18n } = useTranslation();
 
   const toggleOpen = () => {
     setShow((show) => !show);
@@ -53,11 +55,24 @@ export const Navbar = ({ theme, handleTheme }) => {
             >
               <Link to='/contact'>Contact </Link>
             </motion.li>
-            <motion.li whileTap={{ scale: 0.95 }}>
+            <li>
               <motion.div className='themeButton' onClick={handleTheme}>
                 {theme === 'dark' ? <FaSun /> : <FaMoon />}
               </motion.div>
-            </motion.li>
+            </li>
+            <li>
+              <div className='flag-container'>
+                {Object.keys(lngs).map((lng) => (
+                  <div
+                    className='flag'
+                    key={lng}
+                    onClick={() => i18n.changeLanguage(lng)}
+                  >
+                    {lngs[lng].nativeName === 'English' ? ' 🇺🇸' : '🇪🇸'}
+                  </div>
+                ))}
+              </div>
+            </li>
           </ul>
         </motion.div>
       </motion.nav>
