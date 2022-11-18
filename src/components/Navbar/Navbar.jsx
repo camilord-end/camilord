@@ -1,26 +1,27 @@
-import { Link } from 'react-router-dom';
-import { FaMoon, FaSun, FaBars } from 'react-icons/fa';
-import './Navbar.css';
-import { motion } from 'framer-motion';
-import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom'
+import { FaMoon, FaSun, FaBars } from 'react-icons/fa'
+import './Navbar.css'
+import { motion } from 'framer-motion'
+import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export const Navbar = ({ theme, handleTheme, lngs }) => {
-  const [show, setShow] = useState(false);
-  const { t, i18n } = useTranslation();
+  const [show, setShow] = useState(false)
+  const { t, i18n } = useTranslation()
 
   const toggleOpen = () => {
-    setShow((show) => !show);
-  };
+    setShow((show) => !show)
+  }
 
   const variants = {
     open: { opacity: 1, x: 0 },
     closed: { opacity: 0, x: '-100%' }
-  };
+  }
 
   return (
     <div className='nav-container' id='nav'>
       <motion.nav
+        initial={{ x: '-100%' }}
         animate={show ? 'open' : 'closed'}
         variants={variants}
         transition={{ duration: 0.5 }}
@@ -32,28 +33,28 @@ export const Navbar = ({ theme, handleTheme, lngs }) => {
               whileTap={{ scale: 0.95 }}
               onClick={toggleOpen}
             >
-              <Link to='/'>Home </Link>
+              <Link to='/'>{t('navbar.part1')} </Link>
             </motion.li>
             <motion.li
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               onClick={toggleOpen}
             >
-              <Link to='/projects'>Projects </Link>
+              <Link to='/projects'>{t('navbar.part2')} </Link>
             </motion.li>
             <motion.li
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               onClick={toggleOpen}
             >
-              <Link to='/about'> About </Link>
+              <Link to='/about'>{t('navbar.part3')}</Link>
             </motion.li>
             <motion.li
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               onClick={toggleOpen}
             >
-              <Link to='/contact'>Contact </Link>
+              <Link to='/contact'>{t('navbar.part4')} </Link>
             </motion.li>
             <li>
               <motion.div className='themeButton' onClick={handleTheme}>
@@ -68,7 +69,7 @@ export const Navbar = ({ theme, handleTheme, lngs }) => {
                     key={lng}
                     onClick={() => i18n.changeLanguage(lng)}
                   >
-                    {lngs[lng].nativeName === 'English' ? ' 🇺🇸' : '🇪🇸'}
+                    {lngs[lng].nativeName === 'English' ? '🇺🇸' : '🇪🇸'}
                   </div>
                 ))}
               </div>
@@ -85,5 +86,5 @@ export const Navbar = ({ theme, handleTheme, lngs }) => {
         <FaBars />
       </motion.div>
     </div>
-  );
-};
+  )
+}
