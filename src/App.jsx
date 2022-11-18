@@ -1,31 +1,42 @@
-import { Route, Routes } from 'react-router-dom';
-import { Navbar } from './components/Navbar/Navbar';
-import { Home } from './components/Home/Home';
-import { Projects } from './components/Projects/Projects';
-import { About } from './components/About/About';
-import { Contact } from './components/Contact/Contact';
-import useLocalStorage from 'use-local-storage';
+import { Route, Routes } from 'react-router-dom'
+import { Navbar } from './components/Navbar/Navbar'
+import { Home } from './components/Home/Home'
+import { Projects } from './components/Projects/Projects'
+import { About } from './components/About/About'
+import { Contact } from './components/Contact/Contact'
+import { useEffect, useState } from 'react'
 
 const lngs = {
-  en: { 
+  en: {
     nativeName: 'English',
     flag: ':us:'
   },
-  es: { 
+  es: {
     nativeName: 'Español',
     flag: ':es'
   }
-};
+}
 
-import './App.css';
+import './App.css'
 
 export const App = () => {
-  const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'ligth');
+  const [theme, setTheme] = useState(null)
+
+  useEffect(() => {
+    if (
+      localStorage.theme === 'dark' ||
+      (!('theme' in localStorage) &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches)
+    ) {
+      setTheme('dark')
+    } else {
+      setTheme('light')
+    }
+  }, [])
 
   const handleDarkMode = () => {
-    const newTheme = theme === 'ligth' ? 'dark' : 'ligth';
-    setTheme(newTheme);
-  };
+    setTheme(theme === 'dark' ? 'light' : 'dark')
+  }
 
   return (
     <div className='container' data-theme={theme}>
@@ -37,5 +48,5 @@ export const App = () => {
         <Route path='/contact' element={<Contact />} />
       </Routes>
     </div>
-  );
-};
+  )
+}
