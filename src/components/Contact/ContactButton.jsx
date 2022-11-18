@@ -1,10 +1,15 @@
-import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 
-
-export const ContactButton = ({ name, href, text, target, icon, trans='' }) => {
-
-  const { t, i18n } = useTranslation();
+export const ContactButton = ({
+  name,
+  href,
+  text,
+  target,
+  icon,
+  trans = ''
+}) => {
+  const { t } = useTranslation()
 
   return (
     <motion.a
@@ -16,8 +21,8 @@ export const ContactButton = ({ name, href, text, target, icon, trans='' }) => {
     >
       <motion.div className={`${name}Icon`}>{icon}</motion.div>
       <motion.div className={`${name}Text`}>
-        {(trans)? t(trans) : text}
+        {trans ? t(trans) : text}
       </motion.div>
     </motion.a>
-  );
-};
+  )
+}

@@ -1,16 +1,10 @@
-import { useEffect } from 'react';
-import './Home.css';
-import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-
+import './Home.css'
+import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 
 export const Home = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation()
 
-  //useEffect(() => {
-  //  console.log(i18n.language);
-  //}, [i18n])
-  
   return (
     <motion.div
       className='home-container'
@@ -27,13 +21,9 @@ export const Home = () => {
       </div>
       <div className='home-text'>
         <h1 className='home-name'>Julian Orozco</h1>
-        <h2>
-          {t('home.part1')}
-        </h2>
-        <h3>
-          {t('home.part2')}
-        </h3>
+        <h2>{t('home.part1')}</h2>
+        <h3>{t('home.part2')}</h3>
       </div>
     </motion.div>
-  );
-};
+  )
+}
