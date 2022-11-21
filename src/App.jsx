@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom'
-import { Navbar } from './components/Navbar/Navbar'
-import { Home } from './components/Home/Home'
-import { Projects } from './components/Projects/Projects'
-import { About } from './components/About/About'
-import { Contact } from './components/Contact/Contact'
+import { Navbar } from './components/Navbar'
+import { Home } from './components/Home'
+import { Projects } from './components/Projects'
+import { About } from './components/About'
+import { Contact } from './components/Contact'
 import { useEffect, useState } from 'react'
 
 const lngs = {
@@ -17,7 +17,7 @@ const lngs = {
   }
 }
 
-import './App.css'
+import './styles/App.css'
 
 export const App = () => {
   const [theme, setTheme] = useState(null)

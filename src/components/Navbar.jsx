@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FaMoon, FaSun, FaBars } from 'react-icons/fa'
-import './Navbar.css'
+import '../styles/Navbar.css'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'

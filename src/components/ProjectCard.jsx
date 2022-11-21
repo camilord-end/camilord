@@ -1,8 +1,8 @@
-import { AnimatePresence, motion } from 'framer-motion';
-import { useState } from 'react';
-import { Details } from './Details.jsx';
-import { FaPlus, FaMinus } from 'react-icons/fa';
-import './ProjectCard.css';
+import { AnimatePresence, motion } from 'framer-motion'
+import { useState } from 'react'
+import { Details } from './Details.jsx'
+import { FaPlus, FaMinus } from 'react-icons/fa'
+import '../styles/ProjectCard.css'
 
 export const ProjectCard = ({
   name,
@@ -12,11 +12,11 @@ export const ProjectCard = ({
   preview,
   image
 }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
 
   const toggleOpen = () => {
-    setIsOpen(!isOpen);
-  };
+    setIsOpen(!isOpen)
+  }
 
   return (
     <motion.li className='card' layout initial={{ borderRadius: 10 }}>
@@ -49,5 +49,5 @@ export const ProjectCard = ({
         )}
       </AnimatePresence>
     </motion.li>
-  );
-};
+  )
+}

@@ -1,8 +1,8 @@
-import ProjectData from './ProjectData.json';
-import { ProjectCard } from './ProjectCard';
-import { AnimatePresence, motion } from 'framer-motion';
+import ProjectData from '../data/ProjectData.json'
+import { ProjectCard } from './ProjectCard'
+import { AnimatePresence, motion } from 'framer-motion'
 
-import './Projects.css';
+import '../styles/Projects.css'
 
 export const Projects = () => {
   return (
@@ -30,11 +30,11 @@ export const Projects = () => {
                   stack={stack}
                   image={image}
                 />
-              );
+              )
             }
           )}
         </motion.ul>
       </AnimatePresence>
     </motion.div>
-  );
-};
+  )
+}

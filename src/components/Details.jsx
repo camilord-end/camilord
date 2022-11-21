@@ -1,26 +1,26 @@
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'
 import {
   FaGithub,
   FaExternalLinkAlt,
   FaReact,
   FaCss3,
   FaHtml5
-} from 'react-icons/fa';
-import { SiFramer, SiJavascript, SiTypescript, SiVite } from 'react-icons/si';
-import { AiOutlineApi } from 'react-icons/ai';
-import './Details.css';
+} from 'react-icons/fa'
+import { SiFramer, SiJavascript, SiTypescript, SiVite } from 'react-icons/si'
+import { AiOutlineApi } from 'react-icons/ai'
+import '../styles/Details.css'
 
 export const Details = ({ description, stack, repository, preview }) => {
   const checkStack = (item) => {
-    if (item === 'react') return <FaReact color='teal' />;
-    if (item === 'js') return <SiJavascript color='yellow' />;
-    if (item === 'css') return <FaCss3 color='blue' />;
-    if (item === 'html5') return <FaHtml5 color='#e34f26' />;
-    if (item === 'vite') return <SiVite color='orange' />;
-    if (item === 'axios') return <AiOutlineApi color='pink' />;
-    if (item === 'ts') return <SiTypescript color='#3178c6' />;
-    if (item === 'framer-motion') return <SiFramer color='black' />;
-  };
+    if (item === 'react') return <FaReact color='teal' />
+    if (item === 'js') return <SiJavascript color='yellow' />
+    if (item === 'css') return <FaCss3 color='blue' />
+    if (item === 'html5') return <FaHtml5 color='#e34f26' />
+    if (item === 'vite') return <SiVite color='orange' />
+    if (item === 'axios') return <AiOutlineApi color='pink' />
+    if (item === 'ts') return <SiTypescript color='#3178c6' />
+    if (item === 'framer-motion') return <SiFramer color='black' />
+  }
 
   return (
     <motion.div
@@ -34,13 +34,13 @@ export const Details = ({ description, stack, repository, preview }) => {
       <div className='stack'>
         <motion.ul className='project-stack'>
           {stack.map((item, index) => {
-            let stackIcon = checkStack(item);
+            let stackIcon = checkStack(item)
             return (
               <motion.li key={index} whileHover={{ scale: 1.2 }} layout>
                 {stackIcon}
                 {item}
               </motion.li>
-            );
+            )
           })}
         </motion.ul>
       </div>
@@ -67,5 +67,5 @@ export const Details = ({ description, stack, repository, preview }) => {
         </motion.a>
       </motion.div>
     </motion.div>
-  );
-};
+  )
+}

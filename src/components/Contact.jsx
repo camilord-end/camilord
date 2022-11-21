@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { FaLinkedin, FaWhatsappSquare, FaEnvelopeSquare } from 'react-icons/fa'
-import './Contact.css'
+import '../styles/Contact.css'
 import { ContactButton } from './ContactButton'
 import { useTranslation } from 'react-i18next'
 
