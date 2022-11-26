@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useState } from 'react'
 import { Details } from './Details.jsx'
 import { FaPlus, FaMinus } from 'react-icons/fa'
-import '../styles/ProjectCard.css'
+//import '../styles/ProjectCard.css'
 
 export const ProjectCard = ({
   name,

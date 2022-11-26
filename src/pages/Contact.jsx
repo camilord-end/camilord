@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { FaLinkedin, FaWhatsappSquare, FaEnvelopeSquare } from 'react-icons/fa'
-import '../styles/Contact.css'
-import { ContactButton } from './ContactButton'
+//import '../styles/Contact.css'
+import { ContactButton } from '../components/ContactButton'
 import { useTranslation } from 'react-i18next'
 
 export const Contact = () => {

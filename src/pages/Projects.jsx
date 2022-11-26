@@ -1,8 +1,8 @@
 import ProjectData from '../data/ProjectData.json'
-import { ProjectCard } from './ProjectCard'
+import { ProjectCard } from '../components/ProjectCard'
 import { AnimatePresence, motion } from 'framer-motion'
 
-import '../styles/Projects.css'
+//import '../styles/Projects.css'
 
 export const Projects = () => {
   return (

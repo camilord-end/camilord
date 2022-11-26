@@ -8,7 +8,7 @@ import {
 } from 'react-icons/fa'
 import { SiFramer, SiJavascript, SiTypescript, SiVite } from 'react-icons/si'
 import { AiOutlineApi } from 'react-icons/ai'
-import '../styles/Details.css'
+//import '../styles/Details.css'
 
 export const Details = ({ description, stack, repository, preview }) => {
   const checkStack = (item) => {
