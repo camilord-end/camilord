@@ -1,29 +1,25 @@
-//import '../styles/Home.css'
-import { motion } from 'framer-motion'
-import { useTranslation } from 'react-i18next'
+import { AboutMe } from '../components/Home/AboutMe'
+import { Description } from '../components/Home/Description'
+import { Hobbies } from '../components/Home/Hobbies'
+import { Skills } from '../components/Home/Skills'
+
+import Card from '@mui/material/Card'
+import CardActions from '@mui/material/CardActions'
+import Container from '@mui/material/Container'
+import Divider from '@mui/material/Divider'
 
 export const Home = () => {
-  const { t } = useTranslation()
-
   return (
-    <motion.div
-      className='home-container'
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-    >
-      <div className='image-div'>
-        <img
-          id='photo'
-          src='https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/minga.png'
-          alt='personal-image'
-        />
-      </div>
-      <div className='home-text'>
-        <h1 className='home-name'>Julian Orozco</h1>
-        <h2>{t('home.part1')}</h2>
-        <h3>{t('home.part2')}</h3>
-      </div>
-    </motion.div>
+    <Container maxWidth='md' align='center'>
+      <Card>
+        <Description />
+        <Divider />
+        <CardActions sx={{ flexDirection: 'column' }}>
+          <AboutMe />
+          <Skills />
+          <Hobbies />
+        </CardActions>
+      </Card>
+    </Container>
   )
 }

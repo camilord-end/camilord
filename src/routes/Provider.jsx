@@ -1,9 +1,8 @@
 import { App } from '../pages/App'
+import { useState, useMemo } from 'react'
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import { ColorModeContext } from '../hooks/ColorModeContext'
-import { useState, useMemo } from 'react'
 import { StyledEngineProvider } from '@mui/material/styles'
-
 import CssBaseline from '@mui/material/CssBaseline'
 import useMediaQuery from '@mui/material/useMediaQuery'
 
