@@ -1,3 +1,8 @@
 .css-fa9wvr-MuiCardActions-root > :not(:first-of-type) {
   margin-left: 0;
 }
+
+.css-13v49lt-MuiListItem-root,
+.css-1p823my-MuiListItem-root {
+  justify-content: center;
+}
