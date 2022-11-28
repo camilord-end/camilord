@@ -7,7 +7,6 @@ import Box from '@mui/material/Box'
 import Divider from '@mui/material/Divider'
 import Drawer from '@mui/material/Drawer'
 import Fab from '@mui/material/Fab'
-import IconButton from '@mui/material/IconButton'
 import List from '@mui/material/List'
 import ListSubheader from '@mui/material/ListSubheader'
 import MenuIcon from '@mui/icons-material/Menu'
@@ -30,10 +29,10 @@ export const Navbar = (props) => {
       subheader={
         <ListSubheader
           component='div'
-          id='nested-list-subheader'
+          id='nav-list-subheader'
           sx={{ fontSize: 20 }}
         >
-          Something
+          camilord-end
         </ListSubheader>
       }
     >
