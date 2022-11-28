@@ -5,6 +5,6 @@ export const lngs = {
   },
   es: {
     nativeName: 'Español',
-    flag: ':es'
+    flag: ':es:'
   }
 }
