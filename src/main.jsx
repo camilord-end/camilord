@@ -1,34 +1,8 @@
 import './i18n'
+import './index.css'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-
-import { ErrorPage } from './components/ErrorPage'
-import { Provider } from './routes/Provider'
-import { Home } from './pages/Home'
-import { Projects } from './pages/Projects'
-import { Contact } from './pages/Contact'
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Provider />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: '/',
-        element: <Home />
-      },
-      {
-        path: '/projects',
-        element: <Projects />
-      },
-      {
-        path: '/contact',
-        element: <Contact />
-      }
-    ]
-  }
-])
+import { router } from './utils/router'
+import { RouterProvider } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
