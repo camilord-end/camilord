@@ -1,10 +1,11 @@
-import { SkillCard } from './SkillCard'
-import SkillsData from '../../data/SkillsData.json'
+import { ProficientSkills } from './ProficientSkills'
+import { FamiliarSkills } from './FamiliarSkills'
 
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import Collapse from '@mui/material/Collapse'
+import Divider from '@mui/material/Divider'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
 import ListItemIcon from '@mui/material/ListItemIcon'
@@ -13,8 +14,6 @@ import ListItemText from '@mui/material/ListItemText'
 import ExpandLess from '@mui/icons-material/ExpandLess'
 import ExpandMore from '@mui/icons-material/ExpandMore'
 import HistoryEduIcon from '@mui/icons-material/HistoryEdu'
-import Carousel from 'react-material-ui-carousel'
-import { Box } from '@mui/material'
 
 export const Skills = () => {
   const { t } = useTranslation()
@@ -36,19 +35,10 @@ export const Skills = () => {
         </ListItem>
       </List>
       <Collapse in={open} timeout='auto' unmountOnExit>
-        <List component='div' disablePadding>
-          <ListItem>
-            <ListItemText primary={t('home.part7')} />
-          </ListItem>
-          <Box>
-            <Carousel interval={1500}>
-              {SkillsData.map(({ name, url }) => (
-                <ListItem key={name} component='div'>
-                  <SkillCard key={name} name={name} url={url} />
-                </ListItem>
-              ))}
-            </Carousel>
-          </Box>
+        <List component='div' disablePadding sx={{ minWidth: 225 }}>
+          <ProficientSkills />
+          <Divider />
+          <FamiliarSkills />
         </List>
       </Collapse>
     </>
