@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
+import Avatar from '@mui/material/Avatar'
 import Collapse from '@mui/material/Collapse'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
@@ -33,7 +34,15 @@ export const Hobbies = () => {
       <Collapse in={open} timeout='auto' unmountOnExit>
         <List component='div' disablePadding>
           <ListItem>
-            <ListItemText primary={t('home.part5')} />
+            <ListItemText primary={t('home.part9')} />
+          </ListItem>
+          <ListItem>
+            <Avatar
+              src='src/assets/superoreo.jpeg'
+              alt='Oreo Photo'
+              variant='rounded'
+              sx={{ height: 200, width: 200 }}
+            />
           </ListItem>
         </List>
       </Collapse>
