@@ -1,0 +1,42 @@
+[
+  {
+    "name": "JavaScript",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/JavaScript.png"
+  },
+  {
+    "name": "React",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/React.png"
+  },
+  {
+    "name": "HTML5",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/HTML5.png"
+  },
+  {
+    "name": "CSS",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/CSS3.png"
+  },
+  {
+    "name": "Material UI",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/MaterialUI.png"
+  },
+  {
+    "name": "TailWind CSS",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Tailwind.png"
+  },
+  {
+    "name": "VS Code",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/VSCode.png"
+  },
+  {
+    "name": "Vite",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Vite.png"
+  },
+  {
+    "name": "Vitest",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Vitest.png"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/GitHub.png"
+  }
+]
