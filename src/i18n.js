@@ -25,7 +25,8 @@ i18n
               'First I started learning c++,python and java in the university. Worked hard to learn data structures with c++, and learned about algorithms mainly with python. Also learned java to fully understand the SOLID principles and apply them.',
             part6:
               'When i found out that my passion was on front-end development i started learning all about semantic html, css and tools to make it better and easier, and also javascript to give it more functionality then i started learning AngularJS but wast really into this framework so i started learning about React library, and this was the tool that i was most comfortable.',
-            part7: 'I am proficient with these:',
+            part7: 'I am proficient with:',
+            part8: 'and familiar with:',
             desc1: 'About Me',
             desc2: 'Skills',
             desc3: 'Hobbies'
