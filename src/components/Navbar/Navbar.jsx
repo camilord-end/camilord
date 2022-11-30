@@ -51,13 +51,13 @@ export const Navbar = (props) => {
         aria-label='mobile menu'
         onClick={handleDrawerToggle}
         sx={{
-          position: 'absolute',
+          position: 'fixed',
           top: 16,
           left: 16,
           display: { sm: 'none' }
         }}
       >
-        <MenuIcon />
+        <MenuIcon fontSize='large' />
       </Fab>
       <Box
         component='nav'

@@ -38,7 +38,7 @@ export const Hobbies = () => {
           </ListItem>
           <ListItem>
             <Avatar
-              src='src/assets/superoreo.jpeg'
+              src='https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/superoreo.jpeg'
               alt='Oreo Photo'
               variant='rounded'
               sx={{ height: 200, width: 200 }}
