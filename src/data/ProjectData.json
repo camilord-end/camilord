@@ -2,8 +2,14 @@
   {
     "id": 1,
     "name": "Cat Blog CMS",
-    "description": "A blog involving cats, it doesn't get any better. Using NextJs as the main framework, i builded a robust page that actually uses GraphQL and Hygraph consecuenty to manage all the content, taking advantage off the Headless CMS model to keep all content and logic separated, and making the process of adding new content easy  and fast for both programmer and common users.",
-    "stack": ["react", "js", "css", "html5", "nextjs", "axios", "tailwindcss"],
+    "stack": [
+      "React",
+      "JavaScript",
+      "NextJS",
+      "Axios",
+      "TailWindCSS",
+      "GraphQL"
+    ],
     "repository": "https://github.com/camilord-end/catblog-cms",
     "preview": "https://catblog-cms.vercel.app/",
     "image": "src/assets/projects/CatBlogCMS.png"
@@ -11,8 +17,7 @@
   {
     "id": 2,
     "name": "Pokemondata",
-    "description": "A pokemon info database that contains the sprite images for said pokemon and it changes to its shiny variable on click, also contains info about Special Abilities, Types, and last but not least a table with stats info and how much effort will take to upgrade those stats.",
-    "stack": ["react", "js", "css", "html5", "vite", "axios", "materialui"],
+    "stack": ["React", "JavaScript", "Vite", "Axios", "MaterialUI"],
     "repository": "https://github.com/camilord-end/pokemonda",
     "preview": "https://pokemonda.vercel.app/",
     "image": "src/assets/projects/Pokemondata.png"
@@ -20,8 +25,7 @@
   {
     "id": 3,
     "name": "Countries DB",
-    "description": "A todo list implementing custom hooks like useTodo, creating visibility filters,using dispatch and using useContext due to complex states, making use of dispatch instead of callbacks for better performance. Also using module prop types definitions for text imput.",
-    "stack": ["react", "js", "axios", "css", "html5", "vite"],
+    "stack": ["React", "JavaScript", "Axios", "Vite", "TailWindCSS"],
     "repository": "https://github.com/camilord-end/countries",
     "preview": "https://countries-db.vercel.app/",
     "image": "src/assets/projects/CountriesDB.png"
@@ -29,8 +33,7 @@
   {
     "id": 4,
     "name": "To Do List",
-    "description": "A todo list implementing custom hooks like useTodo, creating visibility filters,using dispatch and using useContext due to complex states, making use of dispatch instead of callbacks for better performance. Also using module prop types definitions for text imput.",
-    "stack": ["react", "js", "css", "html5", "ts", "framer-motion", "etc"],
+    "stack": ["React", "JavaScript", "CSS", "HTML5", "Vite", "Vitest"],
     "repository": "https://github.com/camilord-end/todoList",
     "preview": "https://todo-list-ashen-mu.vercel.app/",
     "image": "src/assets/projects/TODOList.png"
@@ -38,8 +41,7 @@
   {
     "id": 5,
     "name": "Real State page",
-    "description": "lorem ipsum pero largo",
-    "stack": ["react", "js", "css", "html5", "ts", "framer-motion", "etc"],
+    "stack": ["React", "JavaScript", "CSS", "HTML5", "RapidAPI"],
     "repository": "https://github.com/camilord-end/realstate",
     "preview": "https://realstate-one.vercel.app/",
     "image": "src/assets/projects/RealState.png"
