@@ -1,3 +1,4 @@
+import { ProjectStack } from './ProjectStack'
 import { useTranslation } from 'react-i18next'
 
 import Box from '@mui/material/Box'
@@ -5,8 +6,8 @@ import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
 import Typography from '@mui/material/Typography'
 
-export const ProjectDescription = ({ name, image, stack }) => {
-  // const { t } = useTranslation()
+export const ProjectDescription = ({ id, name, image, stack }) => {
+  const { t } = useTranslation()
   const boxStyles = {
     display: 'flex',
     flexDirection: { xs: 'column', sm: 'column', md: 'row' }
@@ -22,6 +23,11 @@ export const ProjectDescription = ({ name, image, stack }) => {
   const cardMediaStyles = {
     maxWidth: { sm: '100%', md: 400 }
   }
+
+  const descString = `projects.desc${id}`
+
+  const textStyles = { pt: 2, textAlign: 'justify' }
+
   return (
     <Box sx={boxStyles}>
       <CardMedia
@@ -36,23 +42,14 @@ export const ProjectDescription = ({ name, image, stack }) => {
           {name}
         </Typography>
         <Typography
-          sx={{ pt: 2 }}
+          sx={textStyles}
           variant='subtitle1'
           color='text.secondary'
           component='div'
         >
-          project desc project descproject descproject descproject descproject
-          descproject descproject descproject descproject descproject
-          descproject descproject desc
+          {t(descString)}
         </Typography>
-        <Typography
-          sx={{ pt: 2 }}
-          variant='subtitle1'
-          color='text.secondary'
-          component='div'
-        >
-          {stack}
-        </Typography>
+        <ProjectStack stack={stack} />
       </CardContent>
     </Box>
   )

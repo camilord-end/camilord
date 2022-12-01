@@ -9,6 +9,7 @@ export const Projects = () => {
       {ProjectData.map(({ id, name, stack, repository, preview, image }) => (
         <ProjectCard
           key={id}
+          id={id}
           name={name}
           image={image}
           demo={preview}
