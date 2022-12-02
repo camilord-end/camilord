@@ -6,7 +6,7 @@ import ArticleIcon from '@mui/icons-material/Article'
 export const contactData = [
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/julian-orozco-72281b232/',
+    url: 'https://www.linkedin.com/in/julian-camilo-orozco/',
     icon: <LinkedInIcon fontSize='large' color='info' />
   },
   {
