@@ -10,7 +10,7 @@ export const ProjectStack = ({ stack }) => {
   return (
     <Box sx={{ display: 'flex', mt: 3 }}>
       {stack.map((item) => (
-        <Card key={item} sx={{ m: 1 }}>
+        <Card key={item} sx={{ m: 1 }} raised>
           <CardMedia
             component='img'
             src={FullStack[item]}
