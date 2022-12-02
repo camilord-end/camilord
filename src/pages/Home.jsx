@@ -14,7 +14,9 @@ export const Home = () => {
       <Card>
         <Description />
         <Divider />
-        <CardActions sx={{ flexDirection: 'column' }}>
+        <CardActions
+          sx={{ flexDirection: 'column', justifyContent: 'center', ml: 0 }}
+        >
           <AboutMe />
           <Skills />
           <Hobbies />
