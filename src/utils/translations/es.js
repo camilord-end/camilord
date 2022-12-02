@@ -20,9 +20,10 @@ export const es = {
       desc3: 'Hobbies'
     },
     contact: {
-      part1: 'Contactame:',
-      part2: 'Correo',
-      part3: 'Telefono'
+      title: 'Contactame:',
+      part1: 'Correo',
+      part2: 'Telefono',
+      part3: ''
     },
     navbar: {
       Home: 'Inicio',
