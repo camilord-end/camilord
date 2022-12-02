@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Cat Blog CMS",
+    "stack": [
+      "React",
+      "JavaScript",
+      "NextJS",
+      "Axios",
+      "TailWindCSS",
+      "GraphQL"
+    ],
+    "repository": "https://github.com/camilord-end/catblog-cms",
+    "preview": "https://catblog-cms.vercel.app/",
+    "image": "src/assets/projects/CatBlogCMS.png"
+  },
+  {
+    "id": 2,
+    "name": "Pokemondata",
+    "stack": ["React", "JavaScript", "Vite", "Axios", "MaterialUI"],
+    "repository": "https://github.com/camilord-end/pokemonda",
+    "preview": "https://pokemonda.vercel.app/",
+    "image": "src/assets/projects/Pokemondata.png"
+  },
+  {
+    "id": 3,
+    "name": "Countries DB",
+    "stack": ["React", "JavaScript", "Axios", "Vite", "TailWindCSS"],
+    "repository": "https://github.com/camilord-end/countries",
+    "preview": "https://countries-db.vercel.app/",
+    "image": "src/assets/projects/CountriesDB.png"
+  },
+  {
+    "id": 4,
+    "name": "To Do List",
+    "stack": ["React", "JavaScript", "CSS", "HTML5", "Vite", "Vitest"],
+    "repository": "https://github.com/camilord-end/todoList",
+    "preview": "https://todo-list-ashen-mu.vercel.app/",
+    "image": "src/assets/projects/TODOList.png"
+  },
+  {
+    "id": 5,
+    "name": "Real State page",
+    "stack": ["React", "JavaScript", "CSS", "HTML5", "RapidAPI"],
+    "repository": "https://github.com/camilord-end/realstate",
+    "preview": "https://realstate-one.vercel.app/",
+    "image": "src/assets/projects/RealState.png"
+  }
+]

@@ -1,89 +1,101 @@
-import { Link } from 'react-router-dom';
-import { FaMoon, FaSun, FaBars } from 'react-icons/fa';
-import './Navbar.css';
-import { motion } from 'framer-motion';
-import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import { NavbarLinks } from './NavbarLinks'
+import { NavbarOptions } from './NavbarOptions'
 
-export const Navbar = ({ theme, handleTheme, lngs }) => {
-  const [show, setShow] = useState(false);
-  const { t, i18n } = useTranslation();
+import { useState } from 'react'
 
-  const toggleOpen = () => {
-    setShow((show) => !show);
-  };
+import Box from '@mui/material/Box'
+import Divider from '@mui/material/Divider'
+import Drawer from '@mui/material/Drawer'
+import Fab from '@mui/material/Fab'
+import List from '@mui/material/List'
+import ListSubheader from '@mui/material/ListSubheader'
+import MenuIcon from '@mui/icons-material/Menu'
 
-  const variants = {
-    open: { opacity: 1, x: 0 },
-    closed: { opacity: 0, x: '-100%' }
-  };
+const drawerWidth = 240
+
+export const Navbar = (props) => {
+  const { window } = props
+  const [mobileOpen, setMobileOpen] = useState(false)
+  const container =
+    window !== undefined ? () => window().document.body : undefined
+
+  const handleDrawerToggle = () => {
+    setMobileOpen((prev) => !prev)
+  }
+
+  const drawer = (
+    <List
+      aria-labelledby='nested-list-subheader'
+      subheader={
+        <ListSubheader
+          component='div'
+          id='nav-list-subheader'
+          sx={{ fontSize: 20 }}
+        >
+          camilord-end
+        </ListSubheader>
+      }
+    >
+      <Divider />
+      <NavbarLinks />
+      <Divider />
+      <NavbarOptions />
+    </List>
+  )
 
   return (
-    <div className='nav-container' id='nav'>
-      <motion.nav
-        animate={show ? 'open' : 'closed'}
-        variants={variants}
-        transition={{ duration: 0.5 }}
+    <>
+      <Fab
+        size='medium'
+        color='secondary'
+        aria-label='mobile menu'
+        onClick={handleDrawerToggle}
+        sx={{
+          position: 'fixed',
+          top: 16,
+          left: 16,
+          display: { sm: 'none' }
+        }}
       >
-        <motion.div className='inner-nav'>
-          <ul>
-            <motion.li
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={toggleOpen}
-            >
-              <Link to='/'>Home </Link>
-            </motion.li>
-            <motion.li
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={toggleOpen}
-            >
-              <Link to='/projects'>Projects </Link>
-            </motion.li>
-            <motion.li
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={toggleOpen}
-            >
-              <Link to='/about'> About </Link>
-            </motion.li>
-            <motion.li
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={toggleOpen}
-            >
-              <Link to='/contact'>Contact </Link>
-            </motion.li>
-            <li>
-              <motion.div className='themeButton' onClick={handleTheme}>
-                {theme === 'dark' ? <FaSun /> : <FaMoon />}
-              </motion.div>
-            </li>
-            <li>
-              <div className='flag-container'>
-                {Object.keys(lngs).map((lng) => (
-                  <div
-                    className='flag'
-                    key={lng}
-                    onClick={() => i18n.changeLanguage(lng)}
-                  >
-                    {lngs[lng].nativeName === 'English' ? ' 🇺🇸' : '🇪🇸'}
-                  </div>
-                ))}
-              </div>
-            </li>
-          </ul>
-        </motion.div>
-      </motion.nav>
-      <motion.div
-        className='menu-button'
-        whileHover={{ scale: 1.5 }}
-        whileTap={{ scale: 1.25 }}
-        onClick={toggleOpen}
+        <MenuIcon fontSize='large' />
+      </Fab>
+      <Box
+        component='nav'
+        sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
+        aria-label='navigation buttons'
       >
-        <FaBars />
-      </motion.div>
-    </div>
-  );
-};
+        <Drawer
+          container={container}
+          variant='temporary'
+          open={mobileOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{
+            keepMounted: true
+          }}
+          sx={{
+            display: { xs: 'block', sm: 'none' },
+            '& .MuiDrawer-paper': {
+              boxSizing: 'border-box',
+              width: drawerWidth
+            }
+          }}
+        >
+          {drawer}
+        </Drawer>
+        <Drawer
+          variant='permanent'
+          sx={{
+            display: { xs: 'none', sm: 'block' },
+            '& .MuiDrawer-paper': {
+              boxSizing: 'border-box',
+              width: drawerWidth
+            }
+          }}
+          open
+        >
+          {drawer}
+        </Drawer>
+      </Box>
+    </>
+  )
+}

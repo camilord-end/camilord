@@ -1,0 +1,20 @@
+{
+  "JavaScript": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/JavaScript.png",
+  "React": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/React.png",
+  "HTML5": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/HTML5.png",
+  "CSS": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/CSS3.png",
+  "MaterialUI": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/MaterialUI.png",
+  "TailWindCSS": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Tailwind.png",
+  "VSCode": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/VSCode.png",
+  "Vite": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Vite.png",
+  "Vitest": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Vitest.png",
+  "GitHub": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/GitHub.png",
+  "Axios": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Axios.png",
+  "ESLint": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/ESLint.png",
+  "Figma": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Figma.webp",
+  "GraphQL": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/GraphQL_Logo.png",
+  "Hygraph": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Hygraph.webp",
+  "Mocha": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Mocha.png",
+  "NextJS": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/NextJS.webp",
+  "RapidAPI": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/RapidAPI.png"
+}

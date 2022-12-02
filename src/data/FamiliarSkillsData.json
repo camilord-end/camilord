@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Axios",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Axios.png"
+  },
+  {
+    "name": "ESLint",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/ESLint.png"
+  },
+  {
+    "name": "Figma",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Figma.webp"
+  },
+  {
+    "name": "GraphQL",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/GraphQL_Logo.png"
+  },
+  {
+    "name": "Hygraph",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Hygraph.webp"
+  },
+  {
+    "name": "Mocha",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Mocha.png"
+  },
+  {
+    "name": "NextJS",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/NextJS.webp"
+  },
+  {
+    "name": "RapidAPI",
+    "url": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/RapidAPI.png"
+  }
+]

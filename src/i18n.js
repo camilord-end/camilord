@@ -1,6 +1,9 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+import i18n from 'i18next'
+import { initReactI18next } from 'react-i18next'
+import LanguageDetector from 'i18next-browser-languagedetector'
+
+import { en } from './utils/translations/en'
+import { es } from './utils/translations/es'
 
 i18n
   .use(LanguageDetector)
@@ -9,36 +12,12 @@ i18n
     debug: false,
     fallbackLng: 'en',
     interpolation: {
-      escapeValue: false,
+      escapeValue: false
     },
     resources: {
-      en: {
-        translation: {
-          home: {
-            part1:'Frontend Developer',
-            part2: 'I will transform all your ideas into code.'
-          },
-          contact: {
-            part1: 'Contact Me:',
-            part2: 'Email',
-            part3: 'Phone',
-          }
-        }
-      },
-      es: {
-        translation: {
-          home: {
-            part1:'Desarrollador Frontend',
-            part2: 'Transformare todas tus ideas en codigo.'
-          },
-          contact: {
-            part1: 'Contactame:',
-            part2: 'Correo',
-            part3: 'Telefono',
-          }
-        }
-      }
+      en: en,
+      es: es
     }
-  });
+  })
 
-export default i18n;
+export default i18n
