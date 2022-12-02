@@ -12,7 +12,7 @@
     ],
     "repository": "https://github.com/camilord-end/catblog-cms",
     "preview": "https://catblog-cms.vercel.app/",
-    "image": "src/assets/projects/CatBlogCMS.png"
+    "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/CatBlogCMS.png"
   },
   {
     "id": 2,
@@ -20,7 +20,7 @@
     "stack": ["React", "JavaScript", "Vite", "Axios", "MaterialUI"],
     "repository": "https://github.com/camilord-end/pokemonda",
     "preview": "https://pokemonda.vercel.app/",
-    "image": "src/assets/projects/Pokemondata.png"
+    "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/Pokemondata.png"
   },
   {
     "id": 3,
@@ -28,7 +28,7 @@
     "stack": ["React", "JavaScript", "Axios", "Vite", "TailWindCSS"],
     "repository": "https://github.com/camilord-end/countries",
     "preview": "https://countries-db.vercel.app/",
-    "image": "src/assets/projects/CountriesDB.png"
+    "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/CountriesDB.png"
   },
   {
     "id": 4,
@@ -36,7 +36,7 @@
     "stack": ["React", "JavaScript", "CSS", "HTML5", "Vite", "Vitest"],
     "repository": "https://github.com/camilord-end/todoList",
     "preview": "https://todo-list-ashen-mu.vercel.app/",
-    "image": "src/assets/projects/TODOList.png"
+    "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/TODOList.png"
   },
   {
     "id": 5,
@@ -44,6 +44,6 @@
     "stack": ["React", "JavaScript", "CSS", "HTML5", "RapidAPI"],
     "repository": "https://github.com/camilord-end/realstate",
     "preview": "https://realstate-one.vercel.app/",
-    "image": "src/assets/projects/RealState.png"
+    "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/RealState.png"
   }
 ]
