@@ -21,7 +21,7 @@ export const contactData = [
   },
   {
     name: 'CV',
-    url: 'src/assets/CV_en.pdf',
+    url: 'https://drive.google.com/file/d/1FtqvhAHMNb7KQ-AalnZdWvaQM1tRGURY/view',
     icon: <ArticleIcon fontSize='large' color='secondary' />
   }
 ]
