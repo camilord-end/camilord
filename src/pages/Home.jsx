@@ -16,6 +16,7 @@ export const Home = () => {
         <Divider />
         <CardActions
           sx={{ flexDirection: 'column', justifyContent: 'center', ml: 0 }}
+          disableSpacing
         >
           <AboutMe />
           <Skills />
