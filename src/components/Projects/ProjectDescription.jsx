@@ -21,7 +21,8 @@ export const ProjectDescription = ({ id, name, image, stack }) => {
   }
 
   const cardMediaStyles = {
-    maxWidth: { sm: '100%', md: 400 }
+    maxWidth: { sm: '100%', md: 400 },
+    minWidth: { sm: '200', md: 400 }
   }
 
   const descString = `projects.desc${id}`
@@ -33,7 +34,7 @@ export const ProjectDescription = ({ id, name, image, stack }) => {
       <CardMedia
         component='img'
         src={image}
-        alt='pokemon data image'
+        alt='project image'
         height={500}
         sx={cardMediaStyles}
       />
