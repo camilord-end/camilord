@@ -45,7 +45,7 @@ export const Hobbies = () => {
           <ListItem>
             <ListItemText primary={t('home.part9')} />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ display: 'flex', justifyContent: 'center' }}>
             <Avatar
               src='https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/superoreo.jpeg'
               alt='Oreo Photo'
