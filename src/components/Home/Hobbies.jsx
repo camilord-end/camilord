@@ -32,7 +32,16 @@ export const Hobbies = () => {
         </ListItem>
       </List>
       <Collapse in={open} timeout='auto' unmountOnExit>
-        <List component='div' disablePadding>
+        <List
+          sx={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignContent: 'center',
+            flexDirection: 'column'
+          }}
+          component='div'
+          disablePadding
+        >
           <ListItem>
             <ListItemText primary={t('home.part9')} />
           </ListItem>
@@ -41,7 +50,14 @@ export const Hobbies = () => {
               src='https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/superoreo.jpeg'
               alt='Oreo Photo'
               variant='rounded'
-              sx={{ height: 200, width: 200 }}
+              sx={{
+                height: 200,
+                width: 200,
+                transition: 'all 0.5s ease-in-out',
+                '&:hover': {
+                  transform: 'scale(1.1)'
+                }
+              }}
             />
           </ListItem>
         </List>
