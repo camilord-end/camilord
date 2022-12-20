@@ -2,3 +2,15 @@
 .css-1p823my-MuiListItem-root {
   justify-content: center;
 }
+
+#tsparticles {
+  z-index: -1;
+}
+
+.project-card {
+  justify-content: center;
+}
+
+.project-container {
+  justify-content: center !important;
+}
