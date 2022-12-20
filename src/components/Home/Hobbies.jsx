@@ -36,7 +36,7 @@ export const Hobbies = () => {
           sx={{
             display: 'flex',
             justifyContent: 'center',
-            alignContent: 'center',
+            alignItems: 'center',
             flexDirection: 'column'
           }}
           component='div'
