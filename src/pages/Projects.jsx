@@ -5,7 +5,7 @@ import Container from '@mui/material/Container'
 
 export const Projects = () => {
   return (
-    <Container maxWidth='md' align='center'>
+    <Container className='project-container' maxWidth='md' align='center'>
       {ProjectData.map(({ id, name, stack, repository, preview, image }) => (
         <ProjectCard
           key={id}

@@ -7,7 +7,7 @@ import { ProjectActions } from './ProjectActions'
 
 export const ProjectCard = ({ id, name, image, repository, demo, stack }) => {
   return (
-    <Card variant='outlined' sx={{ mb: 4 }}>
+    <Card className='project-card' variant='outlined' sx={{ mb: 4 }}>
       <ProjectDescription id={id} name={name} image={image} stack={stack} />
       <Divider />
       <CardActions>
