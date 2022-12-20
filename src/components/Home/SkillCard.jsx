@@ -6,7 +6,10 @@ import Typography from '@mui/material/Typography'
 
 export const SkillCard = ({ name, url }) => {
   return (
-    <Card variant='outlined' sx={{ alignItems: 'center' }}>
+    <Card
+      variant='outlined'
+      sx={{ alignItems: 'center', width: '200px', height: '200px' }}
+    >
       <CardMedia
         component='img'
         image={url}
