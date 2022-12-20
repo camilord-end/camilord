@@ -39,98 +39,13 @@ export const App = () => {
         value: 20
       },
       opacity: {
-        value: 0.5
+        value: 0.3
       },
       shape: {
         type: ['image'],
         image: [
           {
             src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/JavaScript.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/React.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Tailwind.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/HTML5.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/CSS3.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/MaterialUI.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/VSCode.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Vite.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Vitest.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/GitHub.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Axios.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/ESLint.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Figma.webp',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/GraphQL_Logo.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Hygraph.webp',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Mocha.png',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/NextJS.webp',
-            height: '15',
-            width: '15'
-          },
-          {
-            src: 'https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/RapidAPI.png',
             height: '15',
             width: '15'
           }
