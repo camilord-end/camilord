@@ -35,7 +35,7 @@ export const ProjectDescription = ({ id, name, image, stack }) => {
         component='img'
         src={image}
         alt='project image'
-        height={500}
+        height={400}
         sx={cardMediaStyles}
       />
       <CardContent sx={cardContentStyles}>
