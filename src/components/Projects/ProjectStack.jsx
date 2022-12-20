@@ -15,7 +15,7 @@ export const ProjectStack = ({ stack }) => {
             component='img'
             src={FullStack[item]}
             alt={`${item} icon`}
-            sx={{ height: 40, width: 40 }}
+            sx={{ height: 40, width: 40, p: '5px' }}
           />
           <Divider />
           <Typography variant='caption'>{item}</Typography>
