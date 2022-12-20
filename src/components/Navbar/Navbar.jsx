@@ -10,6 +10,7 @@ import Fab from '@mui/material/Fab'
 import List from '@mui/material/List'
 import ListSubheader from '@mui/material/ListSubheader'
 import MenuIcon from '@mui/icons-material/Menu'
+import GitHubIcon from '@mui/icons-material/GitHub'
 
 const drawerWidth = 240
 
@@ -28,10 +29,19 @@ export const Navbar = (props) => {
       aria-labelledby='nested-list-subheader'
       subheader={
         <ListSubheader
-          component='div'
+          component='a'
           id='nav-list-subheader'
-          sx={{ fontSize: 20 }}
+          href='https://github.com/camilord-end'
+          target='_blank'
+          sx={{
+            fontSize: 20,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            textDecoration: 'none'
+          }}
         >
+          <GitHubIcon sx={{ pr: '5px' }} />
           camilord-end
         </ListSubheader>
       }
