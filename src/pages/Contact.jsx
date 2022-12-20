@@ -12,7 +12,7 @@ import List from '@mui/material/List'
 export const Contact = () => {
   const { t } = useTranslation()
   return (
-    <Container maxWidth='sm' align='center'>
+    <Container maxWidth='xs' align='center'>
       <Card variant='outlined'>
         <CardHeader title={t('contact.title')} />
         <Divider />
