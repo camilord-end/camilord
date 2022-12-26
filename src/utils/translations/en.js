@@ -35,15 +35,19 @@ export const en = {
     },
     projects: {
       desc1:
-        "A blog involving cats, it doesn't get any better. Using NextJS as the main framework, I builded a robust page that actually uses GraphQL and Hygraph consecuently to manage all the content taking advantage off the Headless CMS model to keep all content and logic separated and making the process of adding new content easy and fast for both programmer and common users.",
+        'This is a clone of the whatsapp web version; it uses NextJS as a Framework to use Server Side Rendering improving User Experience, uses Firebase Auth to Login into your Google Account and lets you start chatting pretty fast with no configurations at all.',
       desc2:
-        'A pokemon info database that contains the sprite images for said pokemon and it changes to its shiny variable on click, also contains info about Special Abilities, Types, and last but not least a table with stats info and how much effort will take to upgrade those stats.',
+        "A blog involving cats, it doesn't get any better. Using NextJS as the main framework, I builded a robust page that actually uses GraphQL and Hygraph consecuently to manage all the content taking advantage off the Headless CMS model to keep all content and logic separated and making the process of adding new content easy and fast for both programmer and common users.",
       desc3:
-        'This project focuses on using OpenWeather API and OpenCountries API to practice conditional rendering and the presentation of all the info gathered through the API calls. All Css was done with TailwindCSS to get familiar with the framework.',
+        'This is a landing page based on a figma design, uses Framer-motion and TailwindCSS to create styles and animations that are nice to the user; it applies UI (User interface)/UX (User Experience) principles to keep the user engaged with the given information.',
       desc4:
-        'A todo list implementing custom hooks like useTodo, creating visibility filters using dispatch, and using useContext due to complex states, making use of dispatch instead of callbacks for better performance. Also using module prop types definitions for text imput.',
+        'This project focuses on using OpenWeather API and OpenCountries API to practice conditional rendering and the presentation of all the info gathered through the API calls. All Css was done with TailwindCSS to get familiar with the framework.',
       desc5:
-        'This real state project focuses on using the file-based routing provided by NextJS, making routing easier and better to understand, also uses Chakra UI to practice the library, also uses tools like nprogress on loading times to keep the user focused on the page. Focused on getting used to the getStaticProps and getServerSideProps Function to pass props to components in static or dinamic envoirements.'
+        'A todo list implementing custom hooks like useTodo, creating visibility filters using dispatch, and using useContext due to complex states, making use of dispatch instead of callbacks for better performance. Also using module prop types definitions for text imput.',
+      desc6:
+        'This real state project focuses on using the file-based routing provided by NextJS, making routing easier and better to understand, also uses Chakra UI to practice the library, also uses tools like nprogress on loading times to keep the user focused on the page. Focused on getting used to the getStaticProps and getServerSideProps Function to pass props to components in static or dinamic envoirements.',
+      desc7:
+        'A pokemon info database that contains the sprite images for said pokemon and it changes to its shiny variable on click, also contains info about Special Abilities, Types, and last but not least a table with stats info and how much effort will take to upgrade those stats.'
     }
   }
 }

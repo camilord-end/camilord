@@ -35,15 +35,19 @@ export const es = {
     },
     projects: {
       desc1:
-        'Un blog sobre gatos, no hay nada mejor. Usando NextJS como framework principal, construí una página robusta que usa GraphQL y consecuentemente Hygraph para manejar todo el contenido aprovechando el modelo Headless CMS, manteniendo todo el contenido y la lógica del programa separados. Haciendo así que el proceso de añadir nuevo contenido sea fácil para el usuario, y añadir funcionalidades sea fácil para el desarrollador.',
+        'Este es un con de la versión web de Whatsapp. Usa NextJS como framework para hacer uso del Renderizado del lado del Servidor, mejorando así la experiencia del usuario. Usa Firebase Auth para Entrar en tu cuenta de Google y dejarte empezar a chatear bastante rápido sin configuraciones adicionales.',
       desc2:
-        'Una base de datos de Pokémon que contiene imágenes de los sprites del correspondiente Pokémon, los cambian a su variante al dar clic en la imagen, también contiene información sobre las habilidades especiales, tipos, y de último, pero no menos importante, una tabla con las estadísticas y cuanto esfuerzo tomara subirlas.',
+        'Un blog sobre gatos, no hay nada mejor. Usando NextJS como framework principal, construí una página robusta que usa GraphQL y consecuentemente Hygraph para manejar todo el contenido aprovechando el modelo Headless CMS, manteniendo todo el contenido y la lógica del programa separados. Haciendo así que el proceso de añadir nuevo contenido sea fácil para el usuario, y añadir funcionalidades sea fácil para el desarrollador.',
       desc3:
-        'Este proyecto se enfoca en el uso de las APIs OpenWeather y OpenCountries, se practica el renderizado condicional mediante una barra de input que sirve como filtro. Se presenta toda la información del país y el clima de la capital respectiva. Todos los estilos fueron añadidos mediante TailwindCSS para familiarizarse más con este framework.',
+        'Esta es una Landing page basada en un diseño de figma, usa TailwindCSS y Framer-motion para crear estilos y animaciones agradables para el usuario, aplica principios de UI/UX para mantener el usuario enfocado en la información proporcionada.',
       desc4:
-        'Una lista de cosas por hacer implementando hooks personalizados, creando filtros de visibilidad para ver lo completado y lo que esta aun por hacer, usando el hook useContext y stores debito a los estados más complejos, usando dispatch en lugar de callbacks para mejor rendimiento en la aplicación. Se una Framer-motion para suavizar las transiciones entre los estados y hacerlo más atractivo al usuario.',
+        'Este proyecto se enfoca en el uso de las APIs OpenWeather y OpenCountries, se practica el renderizado condicional mediante una barra de input que sirve como filtro. Se presenta toda la información del país y el clima de la capital respectiva. Todos los estilos fueron añadidos mediante TailwindCSS para familiarizarse más con este framework.',
       desc5:
-        'Este proyecto de bienes raíces se enfoca en el uso del enrutamiento basado en archivos que nos provee NextJS, haciendo el enrutamiento fácil de implementar y entender. Se usa Chakra UI para conocer la librería, herramientas como nprogress para mostrar el progreso en pantallas de carga de la aplicación. Se hace énfasis en el uso de las funciones getStaticProps y getServerSideProps para pasar props a los componentes en entornos estáticos o dinámicos .'
+        'Una lista de cosas por hacer implementando hooks personalizados, creando filtros de visibilidad para ver lo completado y lo que esta aun por hacer, usando el hook useContext y stores debito a los estados más complejos, usando dispatch en lugar de callbacks para mejor rendimiento en la aplicación. Se una Framer-motion para suavizar las transiciones entre los estados y hacerlo más atractivo al usuario.',
+      desc6:
+        'Este proyecto de bienes raíces se enfoca en el uso del enrutamiento basado en archivos que nos provee NextJS, haciendo el enrutamiento fácil de implementar y entender. Se usa Chakra UI para conocer la librería, herramientas como nprogress para mostrar el progreso en pantallas de carga de la aplicación. Se hace énfasis en el uso de las funciones getStaticProps y getServerSideProps para pasar props a los componentes en entornos estáticos o dinámicos .',
+      desc7:
+        'Una base de datos de Pokémon que contiene imágenes de los sprites del correspondiente Pokémon, los cambian a su variante al dar clic en la imagen, también contiene información sobre las habilidades especiales, tipos, y de último, pero no menos importante, una tabla con las estadísticas y cuanto esfuerzo tomara subirlas.'
     }
   }
 }
