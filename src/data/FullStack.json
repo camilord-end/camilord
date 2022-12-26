@@ -17,6 +17,6 @@
   "Mocha": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/Mocha.png",
   "NextJS": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/NextJS.webp",
   "RapidAPI": "https://raw.githubusercontent.com/camilord-end/camilord/dev/src/assets/skills/RapidAPI.png",
-  "Firebase": "",
-  "Typescript": ""
+  "Firebase": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/skills/Firebase.webp",
+  "Typescript": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/skills/Typescript.png"
 }

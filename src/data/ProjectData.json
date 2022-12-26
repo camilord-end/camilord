@@ -5,7 +5,7 @@
     "stack": ["NextJS", "MaterialUI", "Typescript", "Firebase", "React"],
     "repository": "https://github.com/camilord-end/wp-2",
     "preview": "https://notwp-2.vercel.app/",
-    "image": ""
+    "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/NotWhatsapp.png"
   },
   {
     "id": 2,
@@ -28,7 +28,7 @@
     "stack": ["React", "JavaScript", "NextJS", "Figma", "TailWindCSS"],
     "repository": "https://github.com/camilord-end/landing-page",
     "preview": "https://mlp-one.vercel.app/",
-    "image": ""
+    "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/Metaversus.png"
   },
   {
     "id": 4,
