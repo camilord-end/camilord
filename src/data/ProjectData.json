@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "Whatsapp Clone",
+    "stack": ["NextJS", "MaterialUI", "Typescript", "Firebase", "React"],
+    "repository": "https://github.com/camilord-end/wp-2",
+    "preview": "https://notwp-2.vercel.app/",
+    "image": ""
+  },
+  {
+    "id": 2,
     "name": "Cat Blog CMS",
     "stack": [
       "React",
@@ -15,15 +23,15 @@
     "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/CatBlogCMS.png"
   },
   {
-    "id": 2,
-    "name": "Pokemondata",
-    "stack": ["React", "JavaScript", "Vite", "Axios", "MaterialUI"],
-    "repository": "https://github.com/camilord-end/pokemonda",
-    "preview": "https://pokemonda.vercel.app/",
-    "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/Pokemondata.png"
+    "id": 3,
+    "name": "Metaversus",
+    "stack": ["React", "JavaScript", "NextJS", "Figma", "TailWindCSS"],
+    "repository": "https://github.com/camilord-end/landing-page",
+    "preview": "https://mlp-one.vercel.app/",
+    "image": ""
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Countries DB",
     "stack": ["React", "JavaScript", "Axios", "Vite", "TailWindCSS"],
     "repository": "https://github.com/camilord-end/countries",
@@ -31,7 +39,7 @@
     "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/CountriesDB.png"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "To Do List",
     "stack": ["React", "JavaScript", "CSS", "HTML5", "Vite", "Vitest"],
     "repository": "https://github.com/camilord-end/todoList",
@@ -39,11 +47,19 @@
     "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/TODOList.png"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Real State page",
     "stack": ["React", "JavaScript", "CSS", "HTML5", "RapidAPI"],
     "repository": "https://github.com/camilord-end/realstate",
     "preview": "https://realstate-one.vercel.app/",
     "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/RealState.png"
+  },
+  {
+    "id": 7,
+    "name": "Pokemondata",
+    "stack": ["React", "JavaScript", "Vite", "Axios", "MaterialUI"],
+    "repository": "https://github.com/camilord-end/pokemonda",
+    "preview": "https://pokemonda.vercel.app/",
+    "image": "https://raw.githubusercontent.com/camilord-end/camilord/master/src/assets/projects/Pokemondata.png"
   }
 ]
